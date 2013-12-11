@@ -1,0 +1,74 @@
+
+.head{
+    border-bottom: 3px;
+    height: 20px;
+}
+
+.task{
+    height: 60px;
+}
+
+.taskDescr{
+    width: 400px;
+}
+
+.completing{
+    width: 80px;
+}
+
+#container{
+    /*background-color: darkgray;*/
+    text-align: center;
+    border: solid black 1px;
+    width: 700px; //100
+    margin: 20px;
+    padding: 10px;
+}
+
+#container ul{
+    border-top: solid 2px darkslategrey;
+    width: 660px;//+100
+    margin-top: 0px
+}
+
+#container ul li{
+    padding-top: 5px;
+    list-style-type: none;
+    display: inline-block;
+}
+
+#headUL{
+    border-top: solid 2px darkslategrey;
+    width: 560px;
+    background-color: lavender;
+    height: 40px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+#container ul .status{
+    width: 80px;
+}
+
+#container ul .status .drawStatus{
+    width: 100px;
+    border-radius: 4px;
+    padding: 2px;
+    color: white;
+}
+
+#container ul .description{
+    width: 300px;
+    font-size: 105%;
+    font-family: "Tahoma";
+}
+
+#container ul .options{
+    width: 150px;
+}
+
+#container ul .time{
+    width: 100px;
+}
